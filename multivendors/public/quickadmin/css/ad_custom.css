@@ -1,0 +1,98 @@
+.dt-buttons{
+	display: none;
+}
+.dataTables_filter label,#DataTables_Table_0_length label{
+	margin-bottom: 15px;
+	font-weight: 400;
+}
+.dataTables_wrapper .dataTables_filter input[type="search"] {
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+table.dataTable thead th, table.dataTable thead td,table.dataTable.no-footer{
+	border-bottom: 1px solid #f4f4f4 !important;
+}
+.dataTables_wrapper .dataTables_paginate{
+	padding-top: 0.5em !important;
+}
+.dataTables_wrapper .dataTables_paginate .paginate_button{
+	padding: 0.3em 0.8em !important;
+}
+.help-block{
+	color: red !important;
+}
+.wrap-create-cate{
+	background: #fff;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+.wrap_action{
+	overflow: hidden;
+	line-height: 30px;
+	display: none;
+}
+.wrap_action span{
+	float: left;
+}
+.wrap_action span i{
+	margin: 0 4px;
+}
+.wrap_action span a.delete{
+	color: #a00;
+}
+.wrap_action span a.delete:hover{
+	color: #dd4b39;
+}
+
+.wrap_action span a.quick-edit{
+	cursor: pointer;
+}
+.data-entry:hover .wrap_action{
+	display: block;
+}
+.data-entry .quick_edit{
+	display: none;
+}
+#tag-description{
+	width: 100%;
+	padding: 5px 10px;
+}
+.search-wrap{
+	overflow: hidden;
+	width: 100%;
+}
+#myInput {
+	float: right;
+    background-image: url(../images/searchicon.png);
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 40%;
+    font-size: 16px;
+    padding: 8px 20px 8px 40px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.bulkactions{
+	margin-bottom: 7px;
+}
+.bulkactions #action-selector{
+	background: #fff;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+.bulkactions #submitCheck{
+	padding: 4px 10px;
+    border-radius: 4px;
+}
+/**/
+#product_photo{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#product_photo li{
+	display: inline-block;
+	margin: 15px;
+	padding: 0;
+	text-decoration: none;
+}
